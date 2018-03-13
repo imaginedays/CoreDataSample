@@ -15,7 +15,8 @@
 	return [[NSFetchRequest alloc] initWithEntityName:@"Person"];
 }
 
-@dynamic name;
 @dynamic age;
+@dynamic name;
+@dynamic sex;
 
 @end

@@ -14,8 +14,8 @@
 		429C479B205620A300B28FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429C479A205620A300B28FC6 /* Assets.xcassets */; };
 		429C479E205620A300B28FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429C479C205620A300B28FC6 /* LaunchScreen.storyboard */; };
 		429C47A1205620A300B28FC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C47A0205620A300B28FC6 /* main.m */; };
-		429C47BB2056354100B28FC6 /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C47B92056354100B28FC6 /* Person+CoreDataClass.m */; };
-		429C47BC2056354100B28FC6 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C47BA2056354100B28FC6 /* Person+CoreDataProperties.m */; };
+		429C47C22056682000B28FC6 /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C47C02056682000B28FC6 /* Person+CoreDataClass.m */; };
+		429C47C32056682000B28FC6 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C47C12056682000B28FC6 /* Person+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,11 @@
 		429C479D205620A300B28FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		429C479F205620A300B28FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		429C47A0205620A300B28FC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		429C47B72056354100B28FC6 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Person+CoreDataProperties.h"; path = "CoreDataSample/Utils/Person+CoreDataProperties.h"; sourceTree = "<group>"; };
-		429C47B82056354100B28FC6 /* Person+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Person+CoreDataClass.h"; path = "CoreDataSample/Utils/Person+CoreDataClass.h"; sourceTree = "<group>"; };
-		429C47B92056354100B28FC6 /* Person+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Person+CoreDataClass.m"; path = "CoreDataSample/Utils/Person+CoreDataClass.m"; sourceTree = "<group>"; };
-		429C47BA2056354100B28FC6 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Person+CoreDataProperties.m"; path = "CoreDataSample/Utils/Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		429C47BD2056678F00B28FC6 /* CoreDataSample 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataSample 2.xcdatamodel"; sourceTree = "<group>"; };
+		429C47BE2056682000B28FC6 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		429C47BF2056682000B28FC6 /* Person+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataClass.h"; sourceTree = "<group>"; };
+		429C47C02056682000B28FC6 /* Person+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataClass.m"; sourceTree = "<group>"; };
+		429C47C12056682000B28FC6 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +51,10 @@
 		429C4782205620A300B28FC6 = {
 			isa = PBXGroup;
 			children = (
-				429C47B72056354100B28FC6 /* Person+CoreDataProperties.h */,
-				429C47B82056354100B28FC6 /* Person+CoreDataClass.h */,
-				429C47B92056354100B28FC6 /* Person+CoreDataClass.m */,
-				429C47BA2056354100B28FC6 /* Person+CoreDataProperties.m */,
+				429C47BE2056682000B28FC6 /* Person+CoreDataProperties.h */,
+				429C47BF2056682000B28FC6 /* Person+CoreDataClass.h */,
+				429C47C02056682000B28FC6 /* Person+CoreDataClass.m */,
+				429C47C12056682000B28FC6 /* Person+CoreDataProperties.m */,
 				429C478D205620A300B28FC6 /* CoreDataSample */,
 				429C478C205620A300B28FC6 /* Products */,
 			);
@@ -155,12 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429C47C32056682000B28FC6 /* Person+CoreDataProperties.m in Sources */,
 				429C4793205620A300B28FC6 /* ViewController.m in Sources */,
 				429C4799205620A300B28FC6 /* CoreDataSample.xcdatamodeld in Sources */,
 				429C47A1205620A300B28FC6 /* main.m in Sources */,
 				429C4790205620A300B28FC6 /* AppDelegate.m in Sources */,
-				429C47BC2056354100B28FC6 /* Person+CoreDataProperties.m in Sources */,
-				429C47BB2056354100B28FC6 /* Person+CoreDataClass.m in Sources */,
+				429C47C22056682000B28FC6 /* Person+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +346,10 @@
 		429C4797205620A300B28FC6 /* CoreDataSample.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				429C47BD2056678F00B28FC6 /* CoreDataSample 2.xcdatamodel */,
 				429C4798205620A300B28FC6 /* CoreDataSample.xcdatamodel */,
 			);
-			currentVersion = 429C4798205620A300B28FC6 /* CoreDataSample.xcdatamodel */;
+			currentVersion = 429C47BD2056678F00B28FC6 /* CoreDataSample 2.xcdatamodel */;
 			path = CoreDataSample.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
